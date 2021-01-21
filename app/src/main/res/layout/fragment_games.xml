@@ -6,13 +6,11 @@
     tools:context=".fragments.GamesFragment"
     android:background="@color/colorGames">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Games"
-        android:textSize="40sp"
-        android:textColor="@android:color/white"
-        android:layout_centerInParent="true"/>
+    <!-- É a representação de uma lista -->
+    <!-- O recyclerview já tem um scrollView automaticamente -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/holder_recycler_view_layout"/>
 
 </RelativeLayout>

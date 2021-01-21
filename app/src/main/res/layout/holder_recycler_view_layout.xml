@@ -57,7 +57,7 @@
             android:id="@+id/text_vier_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mobile é um jogo eletrônico free-to-play de tiro em primeira pessoa desenvolvido pela Tencent Games e publicado pela Activision para Android e iOS. Foi lançado em 1 de outubro de 2019. Possui duas moedas no jogo, além de um passe de batalha."
+            android:text="Call of Duty Mobile é um jogo eletrônico free-to-play de tiro em primeira pessoa desenvolvido pela Tencent Games e publicado pela Activision para Android e iOS. Foi lançado em 1 de outubro de 2019. Possui duas moedas no jogo, além de um passe de batalha."
             app:layout_constraintTop_toBottomOf="@id/chip_group_consoles"
             app:layout_constraintStart_toStartOf="parent"/>
 
@@ -74,15 +74,6 @@
             android:scaleX="0.7"
             android:scaleY="0.7"
             android:transformPivotX="0dp"/>
-
-        <Button
-            android:id="@+id/button_details"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Detalhes"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
         
     </androidx.constraintlayout.widget.ConstraintLayout>
 
