@@ -6,7 +6,9 @@
     tools:context=".fragments.HomeFragment"
     android:background="@color/colorHome">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- Estamos chamando a toolbar apenas nesta página
+         <include layout="@layout/toolbar"/>-->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

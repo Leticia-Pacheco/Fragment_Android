@@ -28,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Call of duty"
+            android:layout_margin="8dp"
             app:layout_constraintTop_toBottomOf="@id/image_game"
             app:layout_constraintStart_toStartOf="parent"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
@@ -36,20 +37,22 @@
             android:id="@+id/chip_group_consoles"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@id/text_view_game_name"
             app:layout_constraintStart_toStartOf="parent">
 
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SNes"
-                android:theme="@style/Theme.MaterialComponents.Light"/>
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="SNes"-->
+<!--                android:theme="@style/Theme.MaterialComponents.Light"/>-->
 
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ps4"
-                android:theme="@style/Theme.MaterialComponents.Light"/>
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ps4"-->
+<!--                android:theme="@style/Theme.MaterialComponents.Light"/>-->
 
         </com.google.android.material.chip.ChipGroup>
 
@@ -57,6 +60,8 @@
             android:id="@+id/text_vier_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
             android:text="Call of Duty Mobile é um jogo eletrônico free-to-play de tiro em primeira pessoa desenvolvido pela Tencent Games e publicado pela Activision para Android e iOS. Foi lançado em 1 de outubro de 2019. Possui duas moedas no jogo, além de um passe de batalha."
             app:layout_constraintTop_toBottomOf="@id/chip_group_consoles"
             app:layout_constraintStart_toStartOf="parent"/>
@@ -65,6 +70,7 @@
             android:id="@+id/rating_bar_game"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             app:layout_constraintTop_toBottomOf="@id/text_vier_description"
             app:layout_constraintStart_toStartOf="parent"
             style="@style/Widget.AppCompat.RatingBar.Indicator"

@@ -9,8 +9,19 @@
     <!-- É a representação de uma lista -->
     <!-- O recyclerview já tem um scrollView automaticamente -->
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_games"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/holder_recycler_view_layout"/>
+        tools:listitem="@layout/holder_game_layout"/>
+    
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/add_24"
+        android:tint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rounded_button"/>
 
 </RelativeLayout>

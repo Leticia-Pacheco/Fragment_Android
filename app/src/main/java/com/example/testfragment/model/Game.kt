@@ -8,7 +8,7 @@ data class Game(
     var gameName: String,
     var gameImage: Drawable,
     var gameDescription: String,
-    var gameRating: Double,
+    var gameRating: Float,
     var consoles: List<Console> //Lista de consoles que o jogo terá (List<console> é um atributo dos consoles)
 )   /*{
         Aqui usaremos apenas para fazer uma função  

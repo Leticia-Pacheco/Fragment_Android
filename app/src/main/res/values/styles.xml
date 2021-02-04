@@ -1,10 +1,17 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"> <!-- NoActionBar serve para tirar a barrinha em cima-->
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Tema para o Chip -->
+    <style name="ChipTextAppearence" parent="Theme.MaterialComponents.Light">
+        <item name="theme">@style/Theme.MaterialComponents.Light</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
 </resources>
