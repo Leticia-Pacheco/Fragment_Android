@@ -36,5 +36,4 @@ class GameAdapter: RecyclerView.Adapter<GameViewHolder>() {
     override fun onBindViewHolder(holder: GameViewHolder, position: Int) {
         holder.bind(gameList[position])
     }
-
 }

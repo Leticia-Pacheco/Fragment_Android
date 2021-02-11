@@ -6,7 +6,8 @@ e colocamos um background. Aí ele devolve o efeito de click.-->
     <item>
         <shape android:shape="oval">
             <solid android:color="@color/colorAdd"/>
-            <stroke android:color="@color/colorPrimary" android:width="2dp"/>
+            <!-- <stroke android:color="@color/colorPrimary" android:width="2dp"/>
+            serve para colocar borda colorida num elemento -->
         </shape>
     </item>
 

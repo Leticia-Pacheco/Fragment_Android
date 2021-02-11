@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="30dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:padding="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/name_console"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="Ps5"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/image_console"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:cardCornerRadius="32dp"
+            android:backgroundTint="@color/colorImagesConsoles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/console_1"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/create_console"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 de março de 2020"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/creator_console"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Creator: Sony Interactive Entertainment."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/create_console"
+            android:layout_marginBottom="15dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

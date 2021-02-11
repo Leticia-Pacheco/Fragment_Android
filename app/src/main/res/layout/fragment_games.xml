@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.GamesFragment"
-    android:background="@color/colorGames">
+    android:background="@color/colorBackground">
 
     <!-- É a representação de uma lista -->
     <!-- O recyclerview já tem um scrollView automaticamente -->
