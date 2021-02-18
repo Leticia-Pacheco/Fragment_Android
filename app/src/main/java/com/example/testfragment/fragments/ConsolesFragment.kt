@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.testfragment.R
 import com.example.testfragment.model.Console
 import com.example.testfragment.adapter.ConsoleAdapter
+import com.example.testfragment.data.ConsoleDataSource
 
 class ConsolesFragment : Fragment() {
 
@@ -38,6 +39,10 @@ class ConsolesFragment : Fragment() {
         consoleList = ConsoleDataSource.getConsoles(view.context)
 
         consoleAdapter.updateConsoleList(consoleList)
+
+//        setHasOptionsMenu(true)
+
+        return view
     }
     
 }

@@ -11,4 +11,6 @@
     <color name="colorConsoles">#E4759B</color>
     <color name="colorBackground">#ECECEC</color>
     <color name="colorImagesConsoles">#E89EB7</color>
+    <color name="colorPrimaryCard">#2196F3</color>
+    <color name="colorSecundaryCard">#92C5ED</color>
 </resources>

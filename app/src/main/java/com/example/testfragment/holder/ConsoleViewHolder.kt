@@ -14,13 +14,13 @@ class ConsoleViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
     // Declaração e inicialização das variáveis
     val textConsoleName = itemView.findViewById<TextView>(R.id.name_console)
     val textConsoleCreate = itemView.findViewById<TextView>(R.id.creator_console)
-    val imageConsole = itemView.findViewById<ImageView>(R.id.image_console)
+//    val imageConsole = itemView.findViewById<ImageView>(R.id.image_console)
     val realeseData = itemView.findViewById<TextView>(R.id.create_console)
 
     fun bind(console: Console) {
         textConsoleName.text = console.consoleName
         textConsoleCreate.text = console.consoleMaker
-        imageConsole.setImageDrawable(console.consoleImage)
+//        imageConsole.setImageDrawable(console.consoleImage)
         realeseData.text = console.consoleReleaseDate
     }
 }

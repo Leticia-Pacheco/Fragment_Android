@@ -6,8 +6,8 @@ data class Console(
     var id: Long,
     var consoleName: String,
     var consoleMaker: String,
-    var consoleReleaseDate: String,
-    var consoleImage: Drawable
+    var consoleReleaseDate: String
+//    var consoleImage: Drawable
 )   /*{
         Aqui usaremos apenas para fazer uma função
     }*/
