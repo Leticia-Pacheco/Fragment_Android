@@ -6,6 +6,8 @@ import android.view.Gravity
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
+import android.widget.EditText
+import android.widget.ImageButton
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
@@ -27,16 +29,20 @@ class MainActivity : AppCompatActivity(),
 //    private  lateinit var buttonConsoles: Button
 //    private  lateinit var buttonGames: Button
 
+    private lateinit var buttonNovoConsole: ImageButton
+    private lateinit var editNomeConsole: EditText
+    private lateinit var editCreatorConsole: EditText
+    private lateinit var editCreateConsole: EditText
+
+
+
     private lateinit var homeFragment: HomeFragment
     private lateinit var gamesFragment: GamesFragment
     private lateinit var consoleFragment: ConsolesFragment
 
     private lateinit var bottomNavigation: BottomNavigationView
-
     private lateinit var navigationView: NavigationView
-
     private lateinit var toolbar: Toolbar
-
     private  lateinit var drawer: DrawerLayout
 
 

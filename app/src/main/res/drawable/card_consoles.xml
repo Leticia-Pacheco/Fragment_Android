@@ -11,7 +11,7 @@
 
             <stroke android:color="@color/colorPrimary"/>
 
-            <gradient android:startColor="@color/colorPrimaryCard" android:endColor="@color/colorSecundaryCard"/>
+            <gradient android:startColor="@color/colorPrimaryCard" android:endColor="#C3E2FA"/>
         </shape>
     </item>
 </ripple>
